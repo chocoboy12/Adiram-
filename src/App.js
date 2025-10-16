@@ -10,7 +10,6 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Realisations from './pages/Realisations';
 import About from './pages/About';
-import Team from './pages/Team';
 import Programs from './pages/Programs';
 import NotFound from './pages/NotFound';
 
@@ -29,7 +28,6 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/realisations" element={<Realisations />} />
           <Route path="/a-propos" element={<About />} />
-          <Route path="/notre-equipe" element={<Team />} />
           <Route path="/nos-programmes" element={<Programs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

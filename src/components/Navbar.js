@@ -25,7 +25,6 @@ function Navbar() {
   const navItems = [
     { path: '/', label: 'Accueil' },
     { path: '/a-propos', label: 'À propos' },
-    { path: '/notre-equipe', label: 'Notre équipe' },
     { path: '/nos-programmes', label: 'Nos programmes' },
     { path: '/realisations', label: 'Réalisations' },
     { path: '/login', label: 'Connexion' }
